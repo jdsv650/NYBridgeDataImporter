@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AEF98C11B8546C900C1B963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF98C01B8546C900C1B963 /* AppDelegate.swift */; };
+		1AEF98C31B8546C900C1B963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF98C21B8546C900C1B963 /* ViewController.swift */; };
+		1AEF98C61B8546C900C1B963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF98C41B8546C900C1B963 /* Main.storyboard */; };
+		1AEF98C81B8546C900C1B963 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF98C71B8546C900C1B963 /* Images.xcassets */; };
+		1AEF98CB1B8546C900C1B963 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF98C91B8546C900C1B963 /* LaunchScreen.xib */; };
+		1AEF98D71B8546CA00C1B963 /* NYSBridgeDataImporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF98D61B8546CA00C1B963 /* NYSBridgeDataImporterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AEF98D11B8546CA00C1B963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AEF98B31B8546C900C1B963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AEF98BA1B8546C900C1B963;
+			remoteInfo = NYSBridgeDataImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AEF98BB1B8546C900C1B963 /* NYSBridgeDataImporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYSBridgeDataImporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEF98BF1B8546C900C1B963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AEF98C01B8546C900C1B963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AEF98C21B8546C900C1B963 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AEF98C51B8546C900C1B963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AEF98C71B8546C900C1B963 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AEF98CA1B8546C900C1B963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1AEF98D01B8546CA00C1B963 /* NYSBridgeDataImporterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYSBridgeDataImporterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEF98D51B8546CA00C1B963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AEF98D61B8546CA00C1B963 /* NYSBridgeDataImporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYSBridgeDataImporterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AEF98B81B8546C900C1B963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEF98CD1B8546CA00C1B963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AEF98B21B8546C900C1B963 = {
+			isa = PBXGroup;
+			children = (
+				1AEF98BD1B8546C900C1B963 /* NYSBridgeDataImporter */,
+				1AEF98D31B8546CA00C1B963 /* NYSBridgeDataImporterTests */,
+				1AEF98BC1B8546C900C1B963 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AEF98BC1B8546C900C1B963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AEF98BB1B8546C900C1B963 /* NYSBridgeDataImporter.app */,
+				1AEF98D01B8546CA00C1B963 /* NYSBridgeDataImporterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AEF98BD1B8546C900C1B963 /* NYSBridgeDataImporter */ = {
+			isa = PBXGroup;
+			children = (
+				1AEF98C01B8546C900C1B963 /* AppDelegate.swift */,
+				1AEF98C21B8546C900C1B963 /* ViewController.swift */,
+				1AEF98C41B8546C900C1B963 /* Main.storyboard */,
+				1AEF98C71B8546C900C1B963 /* Images.xcassets */,
+				1AEF98C91B8546C900C1B963 /* LaunchScreen.xib */,
+				1AEF98BE1B8546C900C1B963 /* Supporting Files */,
+			);
+			path = NYSBridgeDataImporter;
+			sourceTree = "<group>";
+		};
+		1AEF98BE1B8546C900C1B963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AEF98BF1B8546C900C1B963 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AEF98D31B8546CA00C1B963 /* NYSBridgeDataImporterTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AEF98D61B8546CA00C1B963 /* NYSBridgeDataImporterTests.swift */,
+				1AEF98D41B8546CA00C1B963 /* Supporting Files */,
+			);
+			path = NYSBridgeDataImporterTests;
+			sourceTree = "<group>";
+		};
+		1AEF98D41B8546CA00C1B963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AEF98D51B8546CA00C1B963 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AEF98BA1B8546C900C1B963 /* NYSBridgeDataImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEF98DA1B8546CA00C1B963 /* Build configuration list for PBXNativeTarget "NYSBridgeDataImporter" */;
+			buildPhases = (
+				1AEF98B71B8546C900C1B963 /* Sources */,
+				1AEF98B81B8546C900C1B963 /* Frameworks */,
+				1AEF98B91B8546C900C1B963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYSBridgeDataImporter;
+			productName = NYSBridgeDataImporter;
+			productReference = 1AEF98BB1B8546C900C1B963 /* NYSBridgeDataImporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AEF98CF1B8546CA00C1B963 /* NYSBridgeDataImporterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEF98DD1B8546CA00C1B963 /* Build configuration list for PBXNativeTarget "NYSBridgeDataImporterTests" */;
+			buildPhases = (
+				1AEF98CC1B8546CA00C1B963 /* Sources */,
+				1AEF98CD1B8546CA00C1B963 /* Frameworks */,
+				1AEF98CE1B8546CA00C1B963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AEF98D21B8546CA00C1B963 /* PBXTargetDependency */,
+			);
+			name = NYSBridgeDataImporterTests;
+			productName = NYSBridgeDataImporterTests;
+			productReference = 1AEF98D01B8546CA00C1B963 /* NYSBridgeDataImporterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AEF98B31B8546C900C1B963 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = James;
+				TargetAttributes = {
+					1AEF98BA1B8546C900C1B963 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1AEF98CF1B8546CA00C1B963 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1AEF98BA1B8546C900C1B963;
+					};
+				};
+			};
+			buildConfigurationList = 1AEF98B61B8546C900C1B963 /* Build configuration list for PBXProject "NYSBridgeDataImporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AEF98B21B8546C900C1B963;
+			productRefGroup = 1AEF98BC1B8546C900C1B963 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AEF98BA1B8546C900C1B963 /* NYSBridgeDataImporter */,
+				1AEF98CF1B8546CA00C1B963 /* NYSBridgeDataImporterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AEF98B91B8546C900C1B963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEF98C61B8546C900C1B963 /* Main.storyboard in Resources */,
+				1AEF98CB1B8546C900C1B963 /* LaunchScreen.xib in Resources */,
+				1AEF98C81B8546C900C1B963 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEF98CE1B8546CA00C1B963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AEF98B71B8546C900C1B963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEF98C31B8546C900C1B963 /* ViewController.swift in Sources */,
+				1AEF98C11B8546C900C1B963 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEF98CC1B8546CA00C1B963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEF98D71B8546CA00C1B963 /* NYSBridgeDataImporterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AEF98D21B8546CA00C1B963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AEF98BA1B8546C900C1B963 /* NYSBridgeDataImporter */;
+			targetProxy = 1AEF98D11B8546CA00C1B963 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AEF98C41B8546C900C1B963 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AEF98C51B8546C900C1B963 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AEF98C91B8546C900C1B963 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AEF98CA1B8546C900C1B963 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AEF98D81B8546CA00C1B963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AEF98D91B8546CA00C1B963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AEF98DB1B8546CA00C1B963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NYSBridgeDataImporter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AEF98DC1B8546CA00C1B963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NYSBridgeDataImporter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AEF98DE1B8546CA00C1B963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NYSBridgeDataImporterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYSBridgeDataImporter.app/NYSBridgeDataImporter";
+			};
+			name = Debug;
+		};
+		1AEF98DF1B8546CA00C1B963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NYSBridgeDataImporterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYSBridgeDataImporter.app/NYSBridgeDataImporter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AEF98B61B8546C900C1B963 /* Build configuration list for PBXProject "NYSBridgeDataImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEF98D81B8546CA00C1B963 /* Debug */,
+				1AEF98D91B8546CA00C1B963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AEF98DA1B8546CA00C1B963 /* Build configuration list for PBXNativeTarget "NYSBridgeDataImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEF98DB1B8546CA00C1B963 /* Debug */,
+				1AEF98DC1B8546CA00C1B963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AEF98DD1B8546CA00C1B963 /* Build configuration list for PBXNativeTarget "NYSBridgeDataImporterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEF98DE1B8546CA00C1B963 /* Debug */,
+				1AEF98DF1B8546CA00C1B963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AEF98B31B8546C900C1B963 /* Project object */;
+}
