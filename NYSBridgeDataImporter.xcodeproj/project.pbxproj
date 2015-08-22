@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A302E2D1B854AC300F904EC /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A302E241B854AC300F904EC /* Alamofire.swift */; };
+		1A302E2E1B854AC300F904EC /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A302E251B854AC300F904EC /* Download.swift */; };
+		1A302E2F1B854AC300F904EC /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A302E261B854AC300F904EC /* Manager.swift */; };
+		1A302E301B854AC300F904EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A302E271B854AC300F904EC /* MultipartFormData.swift */; };
+		1A302E311B854AC300F904EC /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A302E281B854AC300F904EC /* ParameterEncoding.swift */; };
+		1A302E321B854AC300F904EC /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A302E291B854AC300F904EC /* Request.swift */; };
+		1A302E331B854AC300F904EC /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A302E2A1B854AC300F904EC /* ResponseSerialization.swift */; };
+		1A302E341B854AC300F904EC /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A302E2B1B854AC300F904EC /* Upload.swift */; };
+		1A302E351B854AC300F904EC /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A302E2C1B854AC300F904EC /* Validation.swift */; };
+		1A302E371B85685600F904EC /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A302E361B85685600F904EC /* Bridge.swift */; };
 		1AEF98C11B8546C900C1B963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF98C01B8546C900C1B963 /* AppDelegate.swift */; };
 		1AEF98C31B8546C900C1B963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF98C21B8546C900C1B963 /* ViewController.swift */; };
 		1AEF98C61B8546C900C1B963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF98C41B8546C900C1B963 /* Main.storyboard */; };
@@ -26,6 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A302E241B854AC300F904EC /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		1A302E251B854AC300F904EC /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		1A302E261B854AC300F904EC /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		1A302E271B854AC300F904EC /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		1A302E281B854AC300F904EC /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		1A302E291B854AC300F904EC /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		1A302E2A1B854AC300F904EC /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		1A302E2B1B854AC300F904EC /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
+		1A302E2C1B854AC300F904EC /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		1A302E361B85685600F904EC /* Bridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
 		1AEF98BB1B8546C900C1B963 /* NYSBridgeDataImporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYSBridgeDataImporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AEF98BF1B8546C900C1B963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AEF98C01B8546C900C1B963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +79,7 @@
 		1AEF98B21B8546C900C1B963 = {
 			isa = PBXGroup;
 			children = (
+				1A302E361B85685600F904EC /* Bridge.swift */,
 				1AEF98BD1B8546C900C1B963 /* NYSBridgeDataImporter */,
 				1AEF98D31B8546CA00C1B963 /* NYSBridgeDataImporterTests */,
 				1AEF98BC1B8546C900C1B963 /* Products */,
@@ -90,6 +111,15 @@
 		1AEF98BE1B8546C900C1B963 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1A302E241B854AC300F904EC /* Alamofire.swift */,
+				1A302E251B854AC300F904EC /* Download.swift */,
+				1A302E261B854AC300F904EC /* Manager.swift */,
+				1A302E271B854AC300F904EC /* MultipartFormData.swift */,
+				1A302E281B854AC300F904EC /* ParameterEncoding.swift */,
+				1A302E291B854AC300F904EC /* Request.swift */,
+				1A302E2A1B854AC300F904EC /* ResponseSerialization.swift */,
+				1A302E2B1B854AC300F904EC /* Upload.swift */,
+				1A302E2C1B854AC300F904EC /* Validation.swift */,
 				1AEF98BF1B8546C900C1B963 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,8 +242,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A302E311B854AC300F904EC /* ParameterEncoding.swift in Sources */,
+				1A302E321B854AC300F904EC /* Request.swift in Sources */,
+				1A302E351B854AC300F904EC /* Validation.swift in Sources */,
+				1A302E301B854AC300F904EC /* MultipartFormData.swift in Sources */,
+				1A302E2D1B854AC300F904EC /* Alamofire.swift in Sources */,
+				1A302E331B854AC300F904EC /* ResponseSerialization.swift in Sources */,
+				1A302E2E1B854AC300F904EC /* Download.swift in Sources */,
+				1A302E341B854AC300F904EC /* Upload.swift in Sources */,
+				1A302E371B85685600F904EC /* Bridge.swift in Sources */,
 				1AEF98C31B8546C900C1B963 /* ViewController.swift in Sources */,
 				1AEF98C11B8546C900C1B963 /* AppDelegate.swift in Sources */,
+				1A302E2F1B854AC300F904EC /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +449,7 @@
 				1AEF98DC1B8546CA00C1B963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AEF98DD1B8546CA00C1B963 /* Build configuration list for PBXNativeTarget "NYSBridgeDataImporterTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +458,7 @@
 				1AEF98DF1B8546CA00C1B963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
